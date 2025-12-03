@@ -209,12 +209,8 @@ nav {
     margin-bottom: 1rem;
     font-weight: 800;
     line-height: 1.2;
-    background: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #06b6d4 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    animation: apparitionBas 1s ease 0.2s both, gradient-shift 8s ease infinite;
-    background-size: 200% auto;
+    color: #ffffff;
+    animation: apparitionBas 1s ease 0.2s both;
     letter-spacing: -0.02em;
 }
 
