@@ -1,0 +1,22 @@
+name: Lab piste 2
+
+on:
+  push:        # se lance automatiquement quand tu fais un push
+    branches: [ main ]
+
+jobs:
+  basic-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Étape 2 : Afficher un message de succès
+      - name: Say hello
+        run: echo "Le workflow s'est lancé automatiquement 🎉"
+
+      # Étape 3 : Lister les fichiers du repo
+      - name: List files
+        run: ls -la
